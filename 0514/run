@@ -1,4 +1,3 @@
-#!/bin/bash
-# using the backtick character
-testing=‘date’
-echo “The date and time are: ” $testing
+vi $1
+chmod +x $1
+./$1
